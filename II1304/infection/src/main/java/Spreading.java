@@ -9,8 +9,8 @@ public class Spreading {
     Scanner reader = new Scanner(System.in);
 
     public void execute(individual[][] population, int minDays, int maxDays) {
-        System.out.println("Do you want the data output? if YES, enter 'YES', elsewise simply enter");
-        if (reader.nextLine().equals("YES")) {
+        System.out.println("Do you want the data output? if NO, enter 'NO', elsewise simply enter");
+        if (reader.nextLine().equals("NO")) {
             prestart(population);
             execute(population, minDays, maxDays, 0, 0, true);
         } else {
