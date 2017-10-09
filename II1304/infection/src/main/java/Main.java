@@ -2,7 +2,10 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * Created by Shayan on 2017-10-04.
+ * Created by Shayan Fallahian on 2017-10-04.
+ *
+ * This program is free software and published under LGPL 3.0
+ *
  */
 public class Main {
 
